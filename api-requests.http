@@ -1,0 +1,57 @@
+### Get customers
+GET http://localhost:8080/api/customers
+
+### Get products
+GET http://localhost:8080/api/products
+
+### Create customer
+POST http://localhost:8080/api/customers
+Content-Type: application/json
+
+{
+  "name": "Chloe Ong",
+  "email": "chloe@example.com"
+}
+
+### Create product
+POST http://localhost:8080/api/products
+Content-Type: application/json
+
+{
+  "name": "27-inch Monitor",
+  "sku": "MN-400",
+  "price": 799.00,
+  "stockQuantity": 8
+}
+
+### Create order
+POST http://localhost:8080/api/orders
+Content-Type: application/json
+
+{
+  "customerId": 1,
+  "items": [
+    {
+      "productId": 1,
+      "quantity": 2
+    },
+    {
+      "productId": 2,
+      "quantity": 1
+    }
+  ]
+}
+
+### Get orders
+GET http://localhost:8080/api/orders
+
+### Get order by id
+GET http://localhost:8080/api/orders/1
+
+### Update order status
+PATCH http://localhost:8080/api/orders/1/status
+Content-Type: application/json
+
+{
+  "status": "SHIPPED"
+}
