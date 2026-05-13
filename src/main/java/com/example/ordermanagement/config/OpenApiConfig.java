@@ -18,8 +18,8 @@ public class OpenApiConfig {
                         .description("Interview-ready Spring Boot REST API for customers, products, and orders.")
                         .version("v1")
                         .contact(new Contact()
-                                .name("Calvin")
-                                .email("your-email@example.com"))
+                                .name("Calven")
+                                .email("calvenc0914@gmail.com"))
                         .license(new License()
                                 .name("Demo Project")));
     }
