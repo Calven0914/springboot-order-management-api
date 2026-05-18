@@ -29,6 +29,8 @@ When an order is created, the application:
 
 ## Tech stack
 
+<img width="635" height="356" alt="image" src="https://github.com/user-attachments/assets/a520aa2d-271d-4423-b48b-cd87f6d1e17c" />
+
 - Java 11
 - Spring Boot 2.7
 - Spring Web
