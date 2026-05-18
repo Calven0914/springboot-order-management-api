@@ -92,10 +92,6 @@ When an order is created, the application:
 }
 ```
 
-## Interview explanation you can say
-
-"I built an Order Management API using Spring Boot. I structured it with controller, service, and repository layers to separate concerns. The project exposes RESTful endpoints for managing customers, products, and orders. The most important business flow is order creation, where the system validates customer and product data, checks stock availability, calculates the total amount, updates inventory, and saves the order. I used DTOs for cleaner API contracts and global exception handling for consistent error responses."
-
 ## How to run
 
 This workspace currently has Java 11 available, but Maven is not installed. Once Maven is available, run:
@@ -132,4 +128,3 @@ This project is intentionally built as a clean monolith first. A strong intervie
 - `api-gateway`
 - `discovery-server`
 
-That lets you explain both REST API fundamentals and the path toward microservices.
