@@ -1,6 +1,6 @@
 # Order Management API
 
-This project is a small Spring Boot REST API designed for interview showcasing. It demonstrates common backend patterns a fresh graduate should be able to explain clearly:
+This project is a small Spring Boot REST API designed for interview showcasing.
 
 - layered architecture: controller, service, repository
 - REST endpoints with proper HTTP verbs
@@ -119,7 +119,7 @@ Swagger UI:
 
 ## Next upgrades for microservices
 
-This project is intentionally built as a clean monolith first. A strong interview story is that you would split it into:
+This project is intentionally built as a clean monolith first. A would split it into microservices later on:
 
 - `customer-service`
 - `catalog-service`
